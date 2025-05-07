@@ -1,6 +1,6 @@
 const getTestimonials = async () => {
   try {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_API}/users?limit=8`, {
+    const res = await fetch(`https://dummyjson.com/users?limit=8`, {
       next: { revalidate: 3600 },
     });
 
