@@ -1,6 +1,7 @@
 const getTestimonials = async () => {
   try {
-    const res = await fetch(`https://dummyjson.com/users?limit=8`, {
+    const baseUrl = process.env.API_URL;
+    const res = await fetch(`${baseUrl}/users?limit=8`, {
       next: { revalidate: 3600 },
     });
 
