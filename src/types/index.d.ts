@@ -11,7 +11,6 @@ export type StepType = {
   title: string;
   desc: string;
 };
-
 export type FeatureType = {
   icon: IconType;
   title: string;
