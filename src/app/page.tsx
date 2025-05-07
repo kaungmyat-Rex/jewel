@@ -6,7 +6,7 @@ import Testimonials from "@/components/layout/Testimonials";
 
 export default function Home() {
   return (
-    <main className="w-full pt-[120px]">
+    <main className="w-full pt-[80px] md:pt-[120px]">
       <Hero />
       <section className="w-full px-[12px] md:px-[80px] pb-[100px]">
         <p className="text-[14px] font-normal text-[#434343] py-[20px]">
