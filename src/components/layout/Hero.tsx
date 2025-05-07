@@ -7,7 +7,7 @@ import diamondThree from "../../../public/ui/jewel3.svg";
 
 const Hero = () => {
   return (
-    <div className="w-full h-[420px] bg-[#F0F0F0] relative flex justify-center items-center">
+    <div className="w-full h-[420px] bg-[#F0F0F0] relative flex justify-center items-center ">
       <Image
         src={innerRight}
         alt="innerRight"
